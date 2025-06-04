@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Medical Hardy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Medical Hardy</div>
+
+    <nav id="navLinks" class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+      <a href="#">Login</a>
+      <button>Join Us</button>
+    </nav>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section class="webmain" style="padding-top: 80px;">
+
+    <section class="pagemaster">
+      <div class="borovai">
+        <div class="leftside">
+          <p id="jack">Online</p>
+          <h1>HIGH QUALITY <br> COURSES</h1>
+          <p class="mdnuhash">Every day brings with it a fresh set of <br> learning possibilities.</p>
+          <button class="btn-primary btn99">Get Quote Now</button>
+          <button class="btn-secondary btn99">Learn more</button>
+        </div>
+        <div class="rightside">
+          <img src="Images/RIghtPic.png" alt="Right Image" />
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <section class="popularmain">
+        <p class="practice-advice">Practice Advice</p>
+        <h1>Our Popular Courses</h1>
+        <p class="popular-desc">
+          Problems trying to resolve the conflict between <br>
+          the two major realms of Classical physics: Newtonian mechanics
+        </p>
+        <div class="popularcards">
+          <div class="card">
+            <img src="Images/icon1.svg" alt="" />
+            <h3>Training Courses</h3>
+            <div class="divider red"></div>
+            <p>The gradual accumulation of information about</p>
+          </div>
+
+          <div class="card">
+            <img src="Images/icon2.png" alt="" />
+            <h3>Training Courses</h3>
+            <div class="divider red"></div>
+            <p>The gradual accumulation of information about</p>
+          </div>
+
+          <div class="card card-highlight">
+            <img src="Images/icon3.png" alt="" />
+            <h3>Training Courses</h3>
+            <div class="divider white"></div>
+            <p>The gradual accumulation of information about</p>
+          </div>
+
+          <div class="card">
+            <img src="Images/icon4.png" alt="" />
+            <h3>Training Courses</h3>
+            <div class="divider red"></div>
+            <p>The gradual accumulation of information about</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
