@@ -44,6 +44,10 @@ header {
   color: #000000;
   font-family: "Montserrat", sans-serif;
 }
+.card-highlight p {
+  background: #96BB7C;
+  color: white;
+}
 
 /* Navigation */
 nav.nav-links {
