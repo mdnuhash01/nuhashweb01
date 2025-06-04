@@ -71,6 +71,9 @@ header a{
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
+.righthead button:hover{
+        background-color:#737373;
+    }
 /* header right stop */
 
 
@@ -116,7 +119,11 @@ header a{
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 5px;
-}
+    
+    }
+    .btn:hover{
+        background-color:#737373;
+    }
 
 .btn1{
     background-color: #96BB7C;
