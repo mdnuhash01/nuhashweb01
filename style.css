@@ -304,6 +304,49 @@ font-size: 12.5px;
     padding: 0px 17px;
 }
 }
+@media screen and (max-width:384px) {
+.container{
+    padding: 0px 10px;
+}
+header h1{
+
+    font-size: 12px ;
+}
+.leftmenu a{
+    font-size: 9px;
+    margin-left: 1px;
+}
+.leftmenu{
+    margin-left: 20px;
+}
+.righthead a{
+    font-size: 9px;
+    margin-right: 5px;
+}
+.righthead button{
+    padding: 5px 10px ;
+    font-size: 8px;
+   
+}
+.secfirstcont{
+    font-size: 8px;
+}
+.qualitytitle{font-size: 20px;
+line-height: 22px;}
+.qualitycont{
+    font-size: 10px;
+    line-height: 15px;
+}
+.btn{
+    padding: 4px 9px ;
+    font-size: 7px;
+}
+.btn2{
+    margin-left: 2px;
+}
+
+}
+
 /* 1st page responsive end */
 
 
