@@ -134,6 +134,9 @@ header{
    .menubar{
     display: block;
    }
+    .menubar:hover{
+    color: #fa005c;
+}
    
    .leftside{
     width: 100%;
