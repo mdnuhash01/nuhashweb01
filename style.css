@@ -24,7 +24,7 @@ body{
     margin-left: 34px;
 }
 .leftmenus a:hover{
-    color: #fa005c;
+    color: #FA5000;
 }
 header{
     display: flex;
@@ -36,7 +36,7 @@ header{
 .menubar{
     display: none;
     font-size: 25px;
-    color: #E02C6D;
+    color: #3A3A3A;
 }
 
 /* Header stop */
@@ -51,15 +51,15 @@ header{
     display: grid;
     grid-template-columns: auto auto;
     gap: 8px;
-    background-color: #E02C6D;
+    background-color: #fa4f00b9;
     padding: 10px 24px;
-    border: 3px solid #E02C6D;
+    border: 3px solid #fa4f00b9;
     border-radius: 41px;
     font-size: 16px;
     font-weight: bold;
     color: white;}
     .btn:hover {
-        background-color:#fa005c;
+        background-color:#FA5000;
     }
 
     .leftside{
@@ -134,9 +134,10 @@ header{
   } 
    .menubar{
     display: block;
+    color: #3A3A3A;
    }
 .menubar:hover{
-    color: #fa005c;
+    color: #FA5000;
 }
    
    
