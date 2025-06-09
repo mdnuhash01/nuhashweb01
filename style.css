@@ -38,6 +38,7 @@ header{
     font-size: 25px;
     color: #E02C6D;
 }
+
 /* Header stop */
 
 /* page 1 start */
@@ -134,9 +135,10 @@ header{
    .menubar{
     display: block;
    }
-    .menubar:hover{
+.menubar:hover{
     color: #fa005c;
 }
+   
    
    .leftside{
     width: 100%;
